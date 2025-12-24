@@ -9,6 +9,9 @@ A JavaFX application for simulating 2D SCARA robot kinematics with forward and i
 - **Interactive Visualization**: Real-time 2D visualization with animation
 - **Multiple Test Cases**: Run predefined test scenarios
 
+## Class Diagram
+![Class Diagram](figures/class_diagram.png)
+
 ## Requirements
 
 - Java 17 or higher
