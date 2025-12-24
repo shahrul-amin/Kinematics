@@ -119,8 +119,8 @@ public class RobotKinematicsApp extends Application {
         try {
             double a1 = Double.parseDouble(a1Field.getText());
             double a2 = Double.parseDouble(a2Field.getText());
-            double q1 = Double.parseDouble(q1Field.getText());
-            double q2 = Double.parseDouble(q2Field.getText());
+            double q1 = Math.toRadians(Double.parseDouble(q1Field.getText()));
+            double q2 = Math.toRadians(Double.parseDouble(q2Field.getText()));
             
             robot.setA1(a1);
             robot.setA2(a2);
